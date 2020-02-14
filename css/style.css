@@ -1,0 +1,49 @@
+*{margin: 0; padding:0;}
+
+.container{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+#bg-interface{
+    background-color: aquamarine;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+}
+
+
+
+#home{
+    display: block;
+}
+#win{
+    display: none;
+}
+#loose{
+    display: none;
+}
+#chance2{
+    display: none;
+}
+#chance1{
+    display: none;
+}
