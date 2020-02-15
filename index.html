@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,24 @@
 </head>
 <body>
     <main class="container column w100 h100 align-center justify-center">
-        <section id="bg-interface" class="container column align-center justify-center">
+        <section id="bg-interface" class="container column">
+            <div id="onglet" class="container">
+                <button id="restart" class="btn container justify-center">Restart</button>
+            </div>
 
-            <h2 id="home">Tu a 3 chances</h2>
-
-            <h2 id="chance2">Tu a 2 chances</h2>
-
-            <h2 id="chance1">Tu a 1 chances</h2>
-
-            <h2 id="win">Tu a gagner</h2>
-
-            <h2 id="loose">Tu a perdu</h2>
-
-
-            <input  id="text-input"    type="text">
-
-            <button id="btn">OK</button>
-        
+            <section id="game" class="container column align-center justify-center">
+    
+                <h2 id="home">Tu a 3 chances</h2>
+                <h2 id="plus">C'est plus</h2>
+                <h2 id="moins">C'est moins</h2>
+                <h2 id="win">Tu a gagner</h2>
+                <h2 id="loose">Tu a perdu</h2>
+    
+                <input  id="text-input"    type="text">
+    
+                <button id="btn" class="btn container justify-center">OK</button>
+    
+            </section>
         </section>
     </main>
 </body>
