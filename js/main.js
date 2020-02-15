@@ -1,7 +1,7 @@
 var aleatoire = Math.floor((Math.random() * 10) + 1);
 console.log(aleatoire)
 
-let home = document.querySelector("#home");
+let home = document.querySelector(".home");
 let win = document.querySelector("#win");
 let loose = document.querySelector("#loose");
 let plus = document.querySelector("#plus");
