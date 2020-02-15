@@ -100,3 +100,18 @@ input{
     cursor: pointer;
     transition: all 0.5s;
 }
+
+
+@media screen and (max-width: 640px) {
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    #bg-interface{
+        background-color: rgba(143, 86, 20, 0);
+        opacity: 0.9;
+        /*background-color: rgba(150, 91, 24, 0.7);*/
+        width: 100vw;
+        height: 100vh;
+    }
+}
